@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+
+    <style>
+        .grid-container1{
+            height: 20rem;
+            width: 20rem;
+            display: grid;
+            grid-template-columns: 50% 50%;
+            background-color: red;
+        }
+        .grid-container2{
+            height: 20rem;
+            width: 20rem;
+            display: grid;
+            grid-template-columns: 20% auto;
+            background-color: red;
+        }
+        .grid-container3{
+            height: 20rem;
+            width: 20rem;
+            display: grid;
+            grid-template-columns: 20% auto auto;
+            background-color: red;
+        }
+        .grid-container4{
+            height: 20rem;
+            width: 20rem;
+            display: grid;
+            grid-template-rows: 50% 50%;
+            background-color: red;
+        }
+        .grid-container5{
+            height: 20rem;
+            width: 20rem;
+            display: grid;
+            grid-template-rows: 20% auto;
+            background-color: red;
+        }
+        .grid-container6{
+            height: 20rem;
+            width: 20rem;
+            display: grid;
+            grid-template-rows: 20% auto auto;
+            background-color: red;
+        }
+        .grid-item{
+            background-color: pink;
+            margin: 0.5rem
+        }
+    </style>
+</head>
+<body>
+    <h1>Grid</h1>
+    <h2>grid-templete-columns</h2>
+    <div class="grid-container1">
+        <div class="grid-item">50%</div>
+        <div class="grid-item">50%</div>
+    </div>
+    <h2>grid-templete-columns</h2>
+    <div class="grid-container2">
+        <div class="grid-item">20%</div>
+        <div class="grid-item">auto</div>
+    </div>
+    <h2>grid-templete-columns</h2>
+    <div class="grid-container3">
+        <div class="grid-item">20%</div>
+        <div class="grid-item">auto</div>
+        <div class="grid-item">auto</div>
+    </div>    
+    <h2>grid-templete-rows</h2>
+    <div class="grid-container4">
+        <div class="grid-item">50%</div>
+        <div class="grid-item">50%</div>
+    </div>
+    <h2>grid-templete-rows</h2>
+    <div class="grid-container5">
+        <div class="grid-item">20%</div>
+        <div class="grid-item">auto</div>
+    </div>
+    <h2>grid-templete-rows</h2>
+    <div class="grid-container6">
+        <div class="grid-item">20%</div>
+        <div class="grid-item">auto</div>
+        <div class="grid-item">auto</div>
+    </div>
+</body>
+</html>
